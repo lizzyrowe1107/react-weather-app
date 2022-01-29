@@ -10,6 +10,10 @@ function App() {
           My Weather App
         </h1>
         <WeatherSearchCity city="Paris"/>
+
+        <a href="https://github.com/lizzyrowe1107/react-weather-app">
+          GitHub Link
+        </a>
         
       </header>
     </div>
