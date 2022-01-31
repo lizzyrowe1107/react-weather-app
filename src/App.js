@@ -5,8 +5,7 @@ export default function App() {
   return (
     <div className="App">
 
-      
-
+    <div className= "container">
         <h1>
           My Weather App
         </h1>
@@ -24,7 +23,10 @@ export default function App() {
         
         </footer>
 
-        <button className="btn btn-primary">Hello</button>
+    </div>
+
+
+        
       
     </div>
   );
