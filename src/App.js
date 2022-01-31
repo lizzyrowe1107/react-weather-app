@@ -23,6 +23,8 @@ export default function App() {
         </a>
         
         </footer>
+
+        <button className="btn btn-primary">Hello</button>
       
     </div>
   );
