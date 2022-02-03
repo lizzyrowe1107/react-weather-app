@@ -9,10 +9,10 @@ export default function WeatherSearchCity() {
         <form>
           <div className="row">
             <div className="col-9">
-              <input type="search" placeholder="Enter a city..." className="form-control"></input>
+              <input type="search" placeholder="Enter a city..." className="form-control" autoFocus="on"></input>
             </div>
             <div className="col-3">
-              <input type="submit" value="Search" className="btn btn-primary"></input>
+              <input type="submit" value="Search" className="btn btn-primary w-100"></input>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ export default function WeatherSearchCity() {
 
       <div className="row">
         <div className="col-6">
-          <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Mostly Cloudy"></img> 6 C
+          <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Mostly Cloudy"></img> 6 °C
         </div>
 
         <div className="col-6">
