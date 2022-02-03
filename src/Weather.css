@@ -2,7 +2,6 @@
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
-  
   border-radius: 4px;
   color: rgb(135,135,135);
   
@@ -31,5 +30,28 @@
   line-height: 19px;
   list-style: none;
 
+}
 
+.Weather img {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+
+.Weather .temperature {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: black
+}
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  margin-left: 5px;
+  color: black
 }
