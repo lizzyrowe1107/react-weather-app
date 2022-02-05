@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import "./Weather.css";
 
 export default function WeatherSearchCity(props) {
-  const [ready, setReady] = useState({ready: false});
-  const [weatherData, setWeatherData] = useState({});
+  
+  const [weatherData, setWeatherData] = useState({ ready: false });
+
   function handleResponse(response) {
     //console.log(response.data)
 
@@ -19,15 +20,10 @@ export default function WeatherSearchCity(props) {
       date: "Wednesday 07:00",
       precipitation: "15",
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-      
-
     });
-    
-    
-    
   }
 
-// if its ready
+ // if weatherData is ready then display weather app
   if (weatherData.ready) {
     return (
       <div className="Weather">
@@ -73,19 +69,12 @@ export default function WeatherSearchCity(props) {
             </ul>
           </div>
   
-  
         </div>
-  
-  
-      
-      
-      
-      
-      
-      
       
       </div>
     );
+
+  // else make api call
   } else {
 
     let apiKey = "bad7d22d20acf170eb966f0d0727a2fc";
