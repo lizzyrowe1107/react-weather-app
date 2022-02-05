@@ -85,7 +85,7 @@ export default function WeatherSearchCity(props) {
   } else {
 
     //how does it know to search "city"? Maybe because we are passing a defaultCity to WeatherSearchCity
-    search();
+    search(city);
 
     return "Loading..."
     
