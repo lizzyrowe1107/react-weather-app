@@ -11,11 +11,11 @@ export default function App() {
         <footer>
           This project is coded by {" "}
           
-          <a href="https://itsjustliz.org" target="_blank">Liz Rowe</a> 
+          <a href="https://itsjustliz.org" target="_blank" rel="noreferrer">Liz Rowe</a> 
           
           {" "} and is {" "}
 
-        <a href="https://github.com/lizzyrowe1107/react-weather-app" target="_blank">
+        <a href="https://github.com/lizzyrowe1107/react-weather-app" target="_blank" rel="noreferrer">
          open-sourced on GitHub
         </a>
         
