@@ -41,17 +41,17 @@
 
 .Weather .temperature {
   font-weight: 400;
-  font-size: 50px;
+  font-size: 46px;
   line-height: 64px;
   color: black
 }
 
 .Weather .unit {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -32px;
   margin-left: 5px;
   color: black
   
